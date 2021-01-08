@@ -1,0 +1,55 @@
+img.steve{
+    float: right;
+}
+p.parar{
+    clear: both;
+}
+section.linea::first-line{
+    color: red;
+}
+nav{
+    text-align: center;
+    color: blue;
+    }
+    span.luz:hover{
+        background-color: yellow;
+        color: red;
+    }
+    article a:link{
+        background-color: white;
+        color:blue;
+
+
+    }
+   article a:visited{
+        background-color: blue;
+        color: white;
+
+    }
+    footer{
+        text-align: left;
+        font-style: italic;
+    }
+    body{
+        background-color: turquoise;
+    }
+    h3{
+        counter-reset: contador;
+    }
+    p.tecno::before{
+        content: counter(contador) ". ";
+        counter-increment: contador;
+    }
+    h1{
+        text-align: center;
+        color: blue;
+    }
+    span.mayus{
+        
+        font-size: 100px;
+        color: black;
+    }
+    section.linea::before{
+        content: "1. ";
+
+    }
