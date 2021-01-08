@@ -10,6 +10,7 @@ section.linea::first-line{
 nav{
     text-align: center;
     color: blue;
+    font-size: 30px;
     }
     span.luz:hover{
         background-color: yellow;
